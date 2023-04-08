@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    font-family: 'Anuphan', sans-serif;
+}
+
+header {
+    background-image: url("./images/bluesky.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container header {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(22, 105, 179);
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-text h1 {
+    font-size: 50px;
+    padding: 1rem;
+}
+
+
