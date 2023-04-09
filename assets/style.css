@@ -6,6 +6,7 @@
 body {
     color: white;
     font-family: 'Anuphan', sans-serif;
+    background-color: rgb(158, 197, 227);
 }
 
 header {
@@ -13,11 +14,6 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-}
-
-.container header {
-    margin: 0 auto;
-    max-width: 1200px;
 }
 
 nav {
@@ -47,4 +43,18 @@ a:hover {
     padding: 1rem;
 }
 
+/* .about-text {
+    display: flex;
+    flex-direction: column;
+} */
 
+#about h1 {
+    font-size: 45px;
+    padding: 2rem;
+    /* border-bottom: .5rem solid white; */
+}
+
+#about p {
+    font-size: 20px;
+    padding: 0 0 1rem 2rem;
+}
