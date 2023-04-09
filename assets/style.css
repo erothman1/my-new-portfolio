@@ -43,10 +43,9 @@ a:hover {
     padding: 1rem;
 }
 
-/* .about-text {
-    display: flex;
-    flex-direction: column;
-} */
+#about {
+    height: 100vh;
+}
 
 #about h1 {
     font-size: 45px;
@@ -56,5 +55,9 @@ a:hover {
 
 #about p {
     font-size: 20px;
-    padding: 0 0 1rem 2rem;
+    padding: .625rem 0 1rem 2rem;
+}
+
+#work {
+    height: 100vh;
 }
