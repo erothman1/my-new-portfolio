@@ -43,14 +43,34 @@ a:hover {
     padding: 1rem;
 }
 
+.button {
+    background-color: rgb(134, 192, 235);
+    color: white;
+    border-color: white;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
 #about {
     height: 100vh;
 }
 
-#about h1 {
+h2 {
     font-size: 45px;
     padding: 2rem;
     /* border-bottom: .5rem solid white; */
+}
+
+h2::after {
+    content: "";
+    display: block; 
+    height: .3rem;
+    width: 10rem;
+    background-color: white;
 }
 
 #about p {
@@ -59,5 +79,43 @@ a:hover {
 }
 
 #work {
+    height: 100vh;
+}
+
+#contact {
+    height: 100vh;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#work p, .new-work-page p {
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+#work ul, .new-work-page ul {
+    font-size: 20px;
+    list-style-type: disc;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+#work a, .new-work-page a {
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.offset {
+    margin-left: 3.5%;
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+.new-work-page {
     height: 100vh;
 }
